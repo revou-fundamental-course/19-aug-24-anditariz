@@ -1,56 +1,19 @@
+:root{
+    --primary: #8EBFE7;
+    --bg: #010101;
+}
+
 *{
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans',sans-serif;
-}
-
-wrapper {
-    width: 100px;
-    margin: auto;
-    position: relative;
-}
-
-logo a {
-    width: 50px;
-    height: 75px;
-    font-weight: bold;
-    float: left;
-    font-family: courier;
-    color: #7695FF;
-}
-
-menu {
-    float: right;
-}
-
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background: white;
-}
-
-nav ul {
-    float: left;
-}
-
-nav ul li a {
-    color: #7695FF;
-    font-weight: bold;
-    text-align: center;
-    padding: 0px 16px 0px 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-} 
+body {
+    font-family: 'Popins', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+}
