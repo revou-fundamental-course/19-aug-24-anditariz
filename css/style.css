@@ -76,6 +76,16 @@ body {
 }
 
 
+/* Hero Section */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('..img/header-bg.jpeg');
+    background-repeat: no-repeat;
+}
+
 
 /* Media Queries */
 
