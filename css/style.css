@@ -44,6 +44,7 @@ body {
   background-size: cover;
   border-radius: 20%;
 }
+
 .navbar .navbar-text {
   font-size: 3rem;
   font-weight: 700;
@@ -51,6 +52,12 @@ body {
   font-display: flex;
   margin: 2rem;
   color: #0c518a;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
 }
 
 .navbar .navbar-nav a {
@@ -61,7 +68,7 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: var(--primary);
+  color: #0c518a;
 }
 
 .navbar .navbar-nav a::after {
@@ -73,7 +80,7 @@ body {
 
 .navbar .navbar-nav a:hover::after {
   transform: scaleX(0.5rem);
-  border-bottom: 0.1rem solid var(--primary);
+  border-bottom: 0.1rem solid #0c518a;
 }
 
 .navbar .navbar-extra a {
@@ -82,7 +89,7 @@ body {
 }
 
 .navbar .navbar-extra a:hover {
-  color: var(--primary);
+  color: #0c518a;
 }
 
 #menu {
