@@ -21,13 +21,14 @@
 <body>
     <!-- Navbar start -->
     <nav class="navbar">
-        <a href="#" class="navbar-logo">WhistaraSmartEducation</a>
+        <a href="#" class="navbar-logo"></a>
+        <a href="#" class="navbar-text">Whistara Smart Education</a>
         
         <div class="navbar-nav">
             <a href="#home">HOME</a>
-            <a href="#about">Our Profile</a>
-            <a href="#achievement">Achievement</a>
-            <a href="#contact">Message Us</a>
+            <a href="#about">Profile</a>
+            <a href="#tutor">Tutor</a>
+            <a href="#contact">Contact</a>
         </div>
 
         <div class="navbar-extra">
@@ -41,11 +42,141 @@
      <section class="hero" id="home">
         <main class="content">
             <h1>Effective Learning Strategies for <span>Math & Science</span></h1>
-            <p>Ingin mengetahui lebih cerdas dalam memahami Matematika dan Ipa?</p>
+            <!-- <p>id ="welcomeMessage">Hi, </p><script src="script.js"></script> -->
             <a href="#" class="cta">Join Sekarang</a>
         </main>
      </section>
     <!-- Hero Section End -->
+
+<!-- About Section Start -->
+<section id="about" class="about">
+    <h2><span>Profile</h2>
+    
+    <div class="row">
+        <div class="about-img">
+            <img src="img/ourteam.jpg"Our Profile">
+        </div>
+        <div class="content">
+            <h3>Vision & Mission</h3>
+            <p>Vision.</p>
+            <p>Karena kami memberikan pelayanan terbaik. Cara termudah untuk memahami Matematika dan IPA!</p>
+            <p>Mission.</p>
+            <p>Dengan Tutor yang berkompeten dan memberikan pengalaman belajar yang menyenangkan!</p>
+        </div>
+    </div>
+    
+</section>
+<!-- About Section End  -->
+
+<!-- tutor section start  -->
+ <section id="tutor" class="tutor">
+    <h2>Tutor</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum doloribus deleniti similique. Animi, hic!</p>
+
+     <div class="row">
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Ayu -</h3>
+            <p class="tutor-mapel">Elementary & Junior School </p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Devi -</h3>
+            <p class="tutor-mapel">Elementary & Junior School</p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Dita -</h3>
+            <p class="tutor-mapel">Elementary & Junior School</p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Dhita -</h3>
+            <p class="tutor-mapel">Elementary & Junior School</p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Salmah -</h3>
+            <p class="tutor-mapel">Elementary & Junior School</p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Adel -</h3>
+            <p class="tutor-mapel">Elementary & Junior School</p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Dira -</h3>
+            <p class="tutor-mapel">High School</p>
+        </div>
+        <div class="our-team">
+            <img src="img/tutor.jpg" alt="tutor">
+            <h3 class="tutor-name">- Ka Wiwin -</h3>
+            <p class="tutor-mapel">High School</p>
+        </div>
+     </div>
+    </section>
+<!-- tutor section end  -->
+
+<!-- Contact section start -->
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque?</p>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31722.305135851693!2d106.9366418529043!3d-6.356736142515649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6993d5a7eab479%3A0x207c6a9bdbe6555e!2sPerumahan%20Puri%20Ganda%20Asri%20Cibubur!5e0!3m2!1sid!2sid!4v1724770996226!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        
+        <form action="">
+            <div class="input-group">
+                <label for="name">Nama :</label>
+                <input type="text" id="name" required placeholder="Masukan Nama Anda.."><br>
+                <label for="date">Tanggal Kehadiran :</label>
+                <input type="date" id="date" required placeholder="Masukan Tanggal Lahir Anda.."><br>
+                <label for="gender" >Jenis Kelamin :</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Laki-laki</option>
+                    <option value="female">Perempuan</option>
+                </select><br>
+                <label for="message">Pesan :</label>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                </textarea>
+                <button type="button" onclick="formValidation()" class="btn">Submit</button>
+            </div>
+        </form>    
+        <div id="result-wrapper">
+            <span id="result"></span>
+        </div>
+    </div>
+</section>
+
+<!-- Contact section end -->
+
+<!-- Footer start -->
+<footer>
+    <div class="social">
+        <a href="#"><i data-feather="instagram"i></i></a>
+        <a href="#"><i data-feather="twitter"i></i></a>
+        <a href="#"><i data-feather="phone"i></i></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#tutor">Tutor</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="credit">
+        <p>Created by <a>anditariz</a>. | &copy; 2024.</p>
+    </div>
+</footer>
+
+
+
+<!-- Footer end -->
+
+
+
+
 
     <!-- Feather Icons -->
     <script>
